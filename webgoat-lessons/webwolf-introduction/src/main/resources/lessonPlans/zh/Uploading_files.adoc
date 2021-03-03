@@ -1,0 +1,9 @@
+== 上传文件
+
+在本节中，您可以上传文件，这些文件将从应用程序外部提供。例如，如果要引用在XXE攻击中从xml中引用的DTD，则可以使用WebWolf来提供此DTD。
+
+image::images/files.png[caption="Figure: ", style="lesson-image"]
+
+{nbsp}
+
+上传文件后，您可以使用“链接”获取上传文件的完整URL。

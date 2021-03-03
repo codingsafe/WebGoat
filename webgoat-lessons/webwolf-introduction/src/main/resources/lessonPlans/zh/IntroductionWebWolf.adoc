@@ -1,0 +1,29 @@
+== WebWolf 介绍
+
+仅在课程指定可以使用时，才需要WebWolf。在很多课程中，您无需启动WebWolf就可以使用WebGoat。如果您需要使用WebWolf进行练习，请确保它与WebGoat一起运行。可以使用WebWolf的课程带有以下图标（作业右上方）标记：
+
+{nbsp}
+
+image::images/wolf-enabled.png[width=115,height=128]
+
+{nbsp}
+
+即使图标存在，您也不一定非要使用WebWolf，也可以使用任何您喜欢的拦截工具。（`netcat` 等。）
+
+WebWolf是一个单独的Web应用程序，可以模拟攻击者的计算机。它使我们可以清楚地区分受攻击网站上发生的事件和您作为“攻击者”需要采取的行动。WebWolf是在几次研讨会之后引入的，我们收到了反馈，即网站上“攻击者”角色的一部分与“用户”角色的一部分之间没有明显的区别。WebWolf支持以下项目：
+
+* 托管文件
+* 接收邮件
+* 传入请求的着陆页
+
+WebWolf作为独立的Web应用程序运行。如果您使用的是Docker-compose文件，则只需将浏览器指向 webWolfLink:此处[] 即可打开WebWolf。如果要使用独立版本，则需要下载jar文件并启动它：
+
+```
+java -jar webwolf-<<version>>.jar [--server.port=9090] [--server.address=localhost]
+```
+
+默认情况下，WebWolf在端口9090上启动，使用 `--server.port` 您可以指定其它端口。使用 `server.address`，您可以将其绑定到其它地址（默认localhost）
+
+注意：如果将WebGoat作为独立应用程序启动，则WebWolf也需要作为独立应用程序启动。
+
+这将在端口9090上启动应用程序，单击 webWolfLink:此处[]打开WebWolf。您需要做的第一件事是使用您在WebGoat上注册的用户登录。

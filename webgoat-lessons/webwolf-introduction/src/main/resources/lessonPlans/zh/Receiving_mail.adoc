@@ -1,0 +1,15 @@
+== 您自己的邮箱
+
+WebWolf提供了一个邮件客户端，其中将包含课程中发送的电子邮件。该邮箱是特定于用户的，因此每个用户都有一个单独的邮箱。所有发送到{user}@...的电子邮件，将最终显示在此收件箱中。
+
+{nbsp}
+{nbsp}
+{nbsp}
+
+image::images/mailbox.png[caption="Figure: ", style="lesson-image"]
+
+{nbsp}
+{nbsp}
+{nbsp}
+
+尝试一下，在下面输入您的电子邮件地址，然后在WebWolf中检查收件箱，然后在下面的字段中输入电子邮件中的识别码。
